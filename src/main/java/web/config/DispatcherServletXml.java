@@ -10,15 +10,10 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-/**
- * Created by CQU-CST-WuErli on 2017/3/2 at 15:57.
- * Description :
- * Copyright (c) 2017 CQU_CST_WuErli. All rights reserved.
- */
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("web.example.controller")
+@ComponentScan("web.com.controller")
 public class DispatcherServletXml extends WebMvcConfigurerAdapter{
     /*
     <bean id="defaultViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

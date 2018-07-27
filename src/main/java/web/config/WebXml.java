@@ -2,11 +2,6 @@ package web.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/**
- * Created by CQU-CST-WuErli on 2017/3/2 at 15:56.
- * Description :
- * Copyright (c) 2017 CQU_CST_WuErli. All rights reserved.
- */
 
 public class WebXml extends AbstractAnnotationConfigDispatcherServletInitializer {
     /*
